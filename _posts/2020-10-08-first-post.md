@@ -2,6 +2,7 @@
 layout: default
 title: "My first post"
 preview: "Hello and welcome to my first blog post. Today I learnt how to create a static website"
+custom_date: "08 October 2020"
 permalink: "/:year/:month/:day/:title.html"
 ---
 <h1> My first post </h1>

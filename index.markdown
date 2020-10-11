@@ -11,6 +11,7 @@ layout: default
 {% for post in site.posts %}
 <div>
 <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+<h5 style="color:grey"> {{post.custom_date}} </h5>
 <p>{{post.preview}}<a href="{{post.url}}" style="font-size:10px"> (Read more...)</a></p>
 </div>
 
